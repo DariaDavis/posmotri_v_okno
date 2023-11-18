@@ -282,11 +282,6 @@ img {
   outline-offset: 1px;
 }
 
-.search-form__checkbox-list {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
 
 .search-form__label {
   display: inline-flex;
@@ -302,6 +297,12 @@ img {
 
 .search-form__label:focus-visible {
   outline: 1px solid currentColor;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .search-form__checkbox+.search-form__pseudo-checkbox {
