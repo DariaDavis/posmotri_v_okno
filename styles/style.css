@@ -109,6 +109,7 @@ img {
   width: 100%;
   display: flex;
   align-items: flex-end;
+  position: relative;
 }
 
 .result__video {
@@ -148,6 +149,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 
 .content__list-item {
